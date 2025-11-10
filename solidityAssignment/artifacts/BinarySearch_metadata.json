@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "target",
+						"type": "uint256"
+					}
+				],
+				"name": "search",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"search(uint256[],uint256)": {
+					"params": {
+						"arr": "升序数组",
+						"target": "要查找的目标值"
+					},
+					"returns": {
+						"index": "目标值所在索引，如果未找到返回 type(uint).max"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"search(uint256[],uint256)": {
+					"notice": "在有序数组中查找目标值"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assignment/assignment6six.sol": "BinarySearch"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assignment/assignment6six.sol": {
+			"keccak256": "0xac56fe0f9aa2c44184a4b51f1bc512e318832a209d62616302b55a32e78dcccc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d1efe52b04ccb497219eb0ea2c559dc2915357bbe72f35447081a33be6d39f54",
+				"dweb:/ipfs/QmX12jNYhpxsANpBZta9kRQSQ5njMBCNmt8RfWVW2PV8Lx"
+			]
+		}
+	},
+	"version": 1
+}

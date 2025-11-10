@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "intToRoman",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "result",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"intToRoman(uint256)": {
+					"params": {
+						"num": "输入的整数（1 ≤ num ≤ 3999）"
+					},
+					"returns": {
+						"result": "对应的罗马数字字符串"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"intToRoman(uint256)": {
+					"notice": "将整数转换为罗马数字字符串"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assignment/assignment3Three.sol": "IntegerToRoman"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assignment/assignment3Three.sol": {
+			"keccak256": "0x86c131702b93e41e3f73fbb53e2769865b664f01a6714fe05d828390cba89df1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://361ec61008a7ca6d93a415e8ee92c9a462fbc44b4ea7d6cfe1f52df8d75022bd",
+				"dweb:/ipfs/QmcsmDBWfML7DMGdk7mA9s5RPtR3sXn1TJYuiNswLadjeP"
+			]
+		}
+	},
+	"version": 1
+}

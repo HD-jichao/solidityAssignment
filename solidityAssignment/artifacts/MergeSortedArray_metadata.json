@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr1",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "arr2",
+						"type": "uint256[]"
+					}
+				],
+				"name": "merge",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "merged",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"merge(uint256[],uint256[])": {
+					"params": {
+						"arr1": "第一个有序数组",
+						"arr2": "第二个有序数组"
+					},
+					"returns": {
+						"merged": "合并后的新数组（升序）"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"merge(uint256[],uint256[])": {
+					"notice": "合并两个升序数组为一个新的升序数组"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assignment/assignment5Five.sol": "MergeSortedArray"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assignment/assignment5Five.sol": {
+			"keccak256": "0x89a9501f0f9b6929e8604f7b100199f523aa7202e8a05a2f56a92fd71d10fcea",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2cbe6bf31e573964bf7ddaab02f0406d58f354e31899f412cef166dd68fd0339",
+				"dweb:/ipfs/QmPNEMY7zfDqbchhzp434Ty1Z1P3o84adxYuSUoy24CoBx"
+			]
+		}
+	},
+	"version": 1
+}
